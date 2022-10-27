@@ -21,7 +21,8 @@ console.log(contador)
                 console.log(`${contador} - ZERO`)// INTERPOLAÇÃO- QUANDO QUER JUNTAR UMA STRING, APRESENTAR UMA MENSAGEM
                 //console.log(contador + '- ZERO')//CONCATENAÇÃO- EXEMPLO
             }
-    else if((contador % 2) == 0){
+    else if((contador % 2) == 0)//verifica se o resto da divisão por 2 é exatamente igual a 0
+    {
         console.log(`${contador} - PAR`)
     }
         else {
